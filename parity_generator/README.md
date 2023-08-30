@@ -1,6 +1,6 @@
 # Lab combination -- parity_generator
 * 實驗目的: 能夠根據不同的輸入產生對應的parity bit
-* 摘要: 
+* 摘要: 參考下方 hackmd 檔案
 
 ## parity_generator.v
 輸入和輸出:  
