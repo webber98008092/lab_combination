@@ -22,7 +22,7 @@ always@ block*: 這個區塊對輸入數據進行奇偶校驗。具體來說，�
 3.校驗和比較:
 * 在每次迭代中，首先調用parity_generator_sw任務來計算理想的（或軟體生成的）奇偶校驗值parity_sw。
 * 使用#5的延遲來同步模擬時間，確保硬體模塊已經更新其輸出parity_hw。
-* 如果硬體和軟體生成的校驗位不匹配，則使用$display來輸出不匹配的信息。
+* 如果硬體和軟體生成的校驗位不匹配，則使用$display來輸出不匹配的訊息。
 
 ## synthesis.log
 https://hackmd.io/xqMRdaKeQVaA9ZbyPs85Pw
