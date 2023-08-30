@@ -14,7 +14,7 @@ output reg signed [4:0] index: 一個5位的有符號整數輸出，用於表示
 這個模塊的主要功能是找到9位二進制數字a中最高位1的位置（索引）。如果a是全0，則輸出index會是-1。這通常被用於數位設計中的多種應用，如數據壓縮、尋址等。
 
 ## leading_one_tb.v
-目的: 這個testbench的主要目的是驗證leading_one模塊的正確性。它會生成各種可能的9位輸入值，然後比較模塊輸出的index與預期的“金標”(index_golden)是否匹配。
+目的: 這個testbench的主要目的是驗證leading_one模塊的正確性。它會生成各種可能的9位輸入值，然後比較模塊輸出的index與預期的index_golden是否匹配。
 
 流程:  
 1.初始化變量和模塊:
