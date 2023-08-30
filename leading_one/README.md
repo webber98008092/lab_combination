@@ -2,7 +2,7 @@
 * 實驗目的: 輸入input，回報最高位1出現的位置
 * 摘要: 參考下方 hackmd 檔案
 
-## lab01.v
+## leading_one.v
 輸入和輸出:  
 input [8:0] a: 一個9位的二進制輸入信號。  
 output reg signed [4:0] index: 一個5位的有符號整數輸出，用於表示最高位的1在a中的位置。
@@ -13,7 +13,7 @@ output reg signed [4:0] index: 一個5位的有符號整數輸出，用於表示
 主要功能:  
 這個模塊的主要功能是找到9位二進制數字a中最高位1的位置（索引）。如果a是全0，則輸出index會是-1。這通常被用於數位設計中的多種應用，如數據壓縮、尋址等。
 
-## lab01_tb.v
+## leading_one_tb.v
 目的: 這個testbench的主要目的是驗證leading_one模塊的正確性。它會生成各種可能的9位輸入值，然後比較模塊輸出的index與預期的“金標”(index_golden)是否匹配。
 
 流程:  
